@@ -1,3 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Monda");
 body {
-  background-color: green;
+  font-size: 14px;
+  font-family: monda;
+}
+
+.container {
+  background-color: #fdfdfd;
+  width: 768px;
+  margin: auto 25rem;
+}
+
+.plans section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plans section .plan-tier {
+  display: block;
+}
+
+.plans section .full {
+  width: 100%;
+  margin: auto 0;
+}
+
+.plans section .third {
+  width: 33.33%;
 }
